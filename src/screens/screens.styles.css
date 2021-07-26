@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.links-li {
+    padding-right: max(50px, 10vmin);
+    padding-bottom: 1vmin;
+    font-size: min(40px, 10vmin);
+}
+
+.links-li a{
+    text-decoration: none;
+}
+
+.links-li a:hover{
+    text-decoration: underline;
+}
+
+.page-link {
+    text-decoration: none;
+}

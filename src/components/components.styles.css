@@ -1,0 +1,21 @@
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-li {
+    text-decoration: none;
+    float: left;
+    padding-right: max(50px, 5vmin);
+    font-size: calc(25px + 1vmin);
+}
+
+.nav-li a:hover{
+    text-decoration: underline;
+}
+
+.page-link {
+    text-decoration: none;
+}
