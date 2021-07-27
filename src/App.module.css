@@ -1,0 +1,18 @@
+.container {
+  text-align: left;
+  margin-left: max(10vmin, 10vw);
+  margin-top: max(5vmin, 5vh);
+  font-family: Iosevka Curly Extended;
+}
+
+.App-header {
+  background-color: #FFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5 0px + 2vmin);
+  font-family: Iosevka Curly Extended;
+  color: black;
+}

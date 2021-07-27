@@ -1,26 +1,23 @@
 import React, { useState, useEffect } from "react";
-import "./screens.styles.css";
+import styles from "./screens.module.css";
 
 export default function MainScreen(props) {
     return(
-        <div>
-            <p className="title">
+        <div className={styles.container}>
+            <p className={styles.title}>
                 Kanyes Thaker
             </p>
-            <p className="text-block">
-                <b>Currently</b><br/>ML Eng @ <a href="https://snorkel.ai">snorkel.ai</a>
+            <p className={styles.textBlock}>
+                I'm a machine learning engineer at <a href="https://snorkel.ai">snorkel.ai</a>.
             </p>
-            <p className="text-block">
-                <b>Previously</b><br/>
-                CS/Math @ Cal '21<br/>
-                Cofounder @ Iris<br/>
-                Quant intern @ GS and Point72<br/>
-                Ex-pres @ <a href="https://mdb.dev">mdb.dev</a>
+            <p className={styles.textBlock}>
+                I graduated from UC Berkeley with a B.A. in CS and math in 2021. While I was there, I <a>started a company</a>, did some quant <a>internships</a>, and led <a href="https://mdb.dev">mdb.dev</a>.
             </p>
-            <p className = "text-block">
-                Contact me to talk about math, hard tech, art, social justice, music, and how to build the future
+            <p className={styles.textBlock}>
+                I'm looking to learn, explore, and build the future of technology. I'm interested in solving the hard tech problems of the future while paying attention to the social issues that surround tech today.
             </p>
-            <p className = "text-block">
+            <p className={styles.textBlock}>
+                Contact:<br/>
                 kanyes[dot]thaker[at]gmail<br/>
                 <a href="https://linkedin.com/in/kanyesthaker" style={{"text-decoration":"none"}}>/in/kanyesthaker</a>
             </p>

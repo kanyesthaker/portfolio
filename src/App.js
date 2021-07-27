@@ -1,13 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
 import MainScreen from './screens/MainScreen';
-import { NavBar } from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-    </div>
+    <MainScreen/>
   );
 }
 
