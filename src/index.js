@@ -8,6 +8,8 @@ import NotesScreen from './screens/NotesScreen';
 import ProjectsScreen from './screens/ProjectsScreen';
 import IrisScreen from './screens/projects/IrisScreen';
 import { NavBar } from './components/NavBar';
+import DatumScreen from './screens/projects/DatumScreen';
+import CloseScreen from './screens/projects/CloseScreen';
 
 const Routing=() => (
   <Router>
@@ -16,6 +18,8 @@ const Routing=() => (
       <Route path="/notes" component={NotesScreen}></Route>
       <Route path="/projects" component={ProjectsScreen}></Route>
       <Route path="/iris" component={IrisScreen}></Route>
+      <Route path="/datum" component={DatumScreen}></Route>
+      <Route path="/close" component={CloseScreen}></Route>
       <Route path="/" component={App}></Route>
     </Switch>
   </Router>
