@@ -10,6 +10,8 @@ import IrisScreen from './screens/projects/IrisScreen';
 import { NavBar } from './components/NavBar';
 import DatumScreen from './screens/projects/DatumScreen';
 import CloseScreen from './screens/projects/CloseScreen';
+import DropScreen from './screens/projects/DropScreen';
+import WaveScreen from './screens/projects/WaveScreen';
 
 const Routing=() => (
   <Router>
@@ -20,6 +22,8 @@ const Routing=() => (
       <Route path="/iris" component={IrisScreen}></Route>
       <Route path="/datum" component={DatumScreen}></Route>
       <Route path="/close" component={CloseScreen}></Route>
+      <Route path="/drop" component={DropScreen}></Route>
+      <Route path="/wave" component={WaveScreen}></Route>
       <Route path="/" component={App}></Route>
     </Switch>
   </Router>
