@@ -2,7 +2,7 @@
   text-align: left;
   margin-left: max(10vmin, 10vw);
   margin-top: max(5vmin, 5vh);
-  font-family: Iosevka Curly Extended;
+  font-family: Iosevka;
 }
 
 .App-header {
@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(5 0px + 2vmin);
+  font-size: calc(50px + 2vmin);
   font-family: Iosevka Curly Extended;
   color: black;
 }

@@ -10,7 +10,7 @@ export default function ProjectsScreen(props) {
             <ul>
                 <li className={styles.linksLi}>
                     <Link to="/iris" className={styles.pageLink}>
-                        IRIS - A personal assistant
+                        IRIS - A personal internet
                     </Link>
                 </li>
                 {/* <li className={styles.linksLi}>
