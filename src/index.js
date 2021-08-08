@@ -12,6 +12,7 @@ import DatumScreen from './screens/projects/DatumScreen';
 import CloseScreen from './screens/projects/CloseScreen';
 import DropScreen from './screens/projects/DropScreen';
 import WaveScreen from './screens/projects/WaveScreen';
+import PostsScreen from './screens/PostsScreen';
 
 const Routing=() => (
   <Router>
@@ -19,6 +20,7 @@ const Routing=() => (
     <Switch>
       <Route path="/notes" component={NotesScreen}></Route>
       <Route path="/projects" component={ProjectsScreen}></Route>
+      <Route path="/posts" component={PostsScreen}></Route>
       <Route path="/iris" component={IrisScreen}></Route>
       <Route path="/datum" component={DatumScreen}></Route>
       <Route path="/close" component={CloseScreen}></Route>

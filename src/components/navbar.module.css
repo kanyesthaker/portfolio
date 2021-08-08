@@ -2,7 +2,7 @@
     text-align: left;
     margin-left: max(10vmin, 10vw);
     margin-top: max(5vmin, 5vh);
-    font-family: Iosevka Curly Extended;
+    font-family: Iosevka;
 }
 
 .navUl {
@@ -15,8 +15,8 @@
 .navLi {
     text-decoration: none;
     float: left;
-    padding-right: max(50px, 5vmin);
-    font-size: 27px
+    padding-right: min(50px, 10vw);
+    font-size: 24px;
 }
 .navLi a:hover{
     text-decoration: underline;
@@ -24,4 +24,5 @@
 
 .pageLink {
     text-decoration: none;
+    font-size: 18px;
 }

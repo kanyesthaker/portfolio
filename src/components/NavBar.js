@@ -12,6 +12,9 @@ export const NavBar = (props) => {
                     <Link to="/notes" className={styles.pageLink}>Notes</Link>
                 </li>
                 <li className={styles.navLi}>
+                    <Link to="/posts" className={styles.pageLink}>Posts</Link>
+                </li>
+                <li className={styles.navLi}>
                     <Link to="/projects" className={styles.pageLink}>Projects</Link>
                 </li>
             </ul>

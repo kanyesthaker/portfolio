@@ -1,22 +1,22 @@
 .container {
-text-align: left;
-margin-left: max(10vmin, 10vw);
-margin-top: max(5vmin, 5vh);
-font-family: Iosevka Curly Extended;
-font-size: 18px;
+    text-align: left;
+    margin-left: max(10vmin, 10vw);
+    margin-top: max(2vmin, 2vh);
+    font-family: Iosevka;
+    font-size: 18px;
 }
 
 .title {
-font-size: 36px;
+    font-size: 36px;
 }
 
 .textBlock {
-font-size: 18px;
-width: max(30vw, 70vmin);
+    font-size: 18px;
+    width: max(30vw, 70vmin);
 }
 
 :global a {
-color: #000;
+    color: #000;
 }
 
 :global ul {
