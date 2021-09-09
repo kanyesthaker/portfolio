@@ -4,6 +4,7 @@
     margin-top: max(2vmin, 2vh);
     font-family: Iosevka;
     font-size: 18px;
+    padding-bottom: max(10vmin, 2vh);
 }
 
 .title {
@@ -11,8 +12,8 @@
 }
 
 .textBlock {
-    font-size: 18px;
-    width: max(30vw, 70vmin);
+    font-size: 16px;
+    width: max(400px, 50vmin);
 }
 
 :global a {
@@ -30,7 +31,7 @@
 .linksLi {
     padding-right: max(50px, 10vmin);
     padding-bottom: 1vmin;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .linksLi a{
@@ -46,5 +47,9 @@
 }
 
 .articleTitle {
-    font-size: 27px
+    font-size: 28px
+}
+
+.articleSubtitle {
+    font-size: 24px
 }

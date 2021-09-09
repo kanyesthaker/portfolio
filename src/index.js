@@ -13,6 +13,8 @@ import CloseScreen from './screens/projects/CloseScreen';
 import DropScreen from './screens/projects/DropScreen';
 import WaveScreen from './screens/projects/WaveScreen';
 import PostsScreen from './screens/PostsScreen';
+import FerretScreen from './screens/projects/FerretScreen';
+import EecsScreen from './screens/posts/EecsScreen';
 
 const Routing=() => (
   <Router>
@@ -26,6 +28,8 @@ const Routing=() => (
       <Route path="/close" component={CloseScreen}></Route>
       <Route path="/drop" component={DropScreen}></Route>
       <Route path="/wave" component={WaveScreen}></Route>
+      <Route path="/ferret" component={FerretScreen}></Route>
+      <Route path="/eecs" component={EecsScreen}></Route>
       <Route path="/" component={App}></Route>
     </Switch>
   </Router>
@@ -33,6 +37,7 @@ const Routing=() => (
 
 ReactDOM.render(
   <React.StrictMode>
+    <link rel="shortcut icon" href="../public.png"></link>
     <Routing/>
   </React.StrictMode>,
   document.getElementById('root')

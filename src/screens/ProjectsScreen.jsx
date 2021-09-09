@@ -19,6 +19,11 @@ export default function ProjectsScreen(props) {
                         </a>
                     </li> */}
                 <li className={styles.linksLi}>
+                    <Link to="/ferret" calssName={styles.pageLink}>
+                        Ferret - NLP-powered flashcards for the whole internet
+                    </Link>
+                </li>
+                <li className={styles.linksLi}>
                     <Link to="/close" className={styles.pageLink}>Close Crisis - Local COVID dashboard pre-Google</Link>
                 </li>
                 <li className={styles.linksLi}>

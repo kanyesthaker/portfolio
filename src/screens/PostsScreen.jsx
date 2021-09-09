@@ -5,10 +5,11 @@ export default function PostsScreen(props) {
     return(
         <div className={styles.container}>
             <p className={styles.title}>Posts</p>
-            <p>(This page is still under construction)</p>
             <ul>
                 <li className={styles.linksLi}>
-                    [[ Placeholder ]]
+                    <Link to="/eecs" className={styles.pageLink}>
+                        Looking Back on Berkeley EECS: 2021-09-05
+                    </Link>
                 </li>
             </ul>
         </div>

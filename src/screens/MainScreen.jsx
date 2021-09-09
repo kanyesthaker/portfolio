@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import styles from "./screens.module.css";
 
 export default function MainScreen(props) {
@@ -11,7 +12,7 @@ export default function MainScreen(props) {
                 I'm a machine learning engineer at <a href="https://snorkel.ai">snorkel.ai</a>.
             </p>
             <p className={styles.textBlock}>
-                I graduated from UC Berkeley with a B.A. in CS and math in 2021. While I was there, I <a>started a company</a>, did some quant <a>internships</a>, and led <a href="https://mdb.dev">mdb.dev</a>.
+                I graduated from UC Berkeley with a B.A. in CS and math in 2021. While I was there, I <Link to="/iris">started a company</Link>, did some quant <a>internships</a>, and led <a href="https://mdb.dev">mdb.dev</a>.
             </p>
             <p className={styles.textBlock}>
                 I'm looking to learn, explore, and build the future of technology. I'm interested in solving the hard tech problems of the future while paying attention to the social issues that surround tech today.
