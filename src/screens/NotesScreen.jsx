@@ -9,6 +9,9 @@ export default function NotesScreen(props) {
             </p>
             <ul>
                 <li className={styles.linksLi}>
+                    Machine Learning (Coming Soon)
+                </li>
+                <li className={styles.linksLi}>
                     <a href="https://drive.google.com/file/d/1IKpLYahg9lFPCBePW4mFhUHwRYzzJl3v/view">
                         Differential Geometry
                     </a>
