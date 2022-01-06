@@ -5,7 +5,7 @@ export default function PostsScreen(props) {
     return(
         <div className={styles.container}>
             <p className={styles.title}>Posts</p>
-            <ul>
+            <ul className={styles.linksUl}>
                 <li className={styles.linksLi}>
                     <Link to="/reflection21" className={styles.pageLink}>
                         A Year in Review -- 2021: 2022-01-02

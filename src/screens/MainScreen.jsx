@@ -5,7 +5,7 @@ import styles from "./screens.module.css";
 export default function MainScreen(props) {
     return(
         <div className={styles.container}>
-            <p className={styles.title}>
+            <p className={styles.name}>
                 Kanyes Thaker
             </p>
             <p className={styles.textBlock}>

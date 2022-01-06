@@ -1,6 +1,7 @@
 .container {
     text-align: left;
-    margin-left: max(10vmin, 10vw);
+    margin: auto;
+    width: max(36vmin, 36vmax);
     margin-top: max(5vmin, 5vh);
     font-family: Iosevka;
 }

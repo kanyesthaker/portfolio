@@ -7,7 +7,7 @@ export default function NotesScreen(props) {
             <p className={styles.title}>
                 Notes
             </p>
-            <ul>
+            <ul className={styles.linksUl}>
                 <li className={styles.linksLi}>
                     Machine Learning (Coming Soon)
                 </li>

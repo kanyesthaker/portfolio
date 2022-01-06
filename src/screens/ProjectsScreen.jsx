@@ -7,7 +7,7 @@ export default function ProjectsScreen(props) {
             <p className={styles.title}>
                 Projects
             </p>
-            <ul>
+            <ul className={styles.linksUl}>
                 <li className={styles.linksLi}>
                     <Link to="/iris" className={styles.pageLink}>
                         IRIS - A personal internet
