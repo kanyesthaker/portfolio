@@ -1,8 +1,8 @@
 .container {
     text-align: left;
     margin: auto;
-    width: max(36vmin, 36vmax);
-    margin-top: max(5vmin, 5vh);
+    width: 36vmax;
+    margin-top: max(5vmin, 2vh);
     font-family: Iosevka;
 }
 
@@ -16,7 +16,7 @@
 .navLi {
     text-decoration: none;
     float: left;
-    padding-right: min(50px, 10vw);
+    padding-right: 2vw;
     font-size: 24px;
 }
 .navLi a:hover{
