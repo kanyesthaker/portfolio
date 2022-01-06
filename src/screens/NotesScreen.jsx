@@ -1,5 +1,6 @@
-// import "./screens.styles.css";
+import { Link } from "react-router-dom";
 import styles from "./screens.module.css";
+import differentialgeometrypdf from "../resources/MATH140.pdf";
 
 export default function NotesScreen(props) {
     return(
@@ -12,19 +13,13 @@ export default function NotesScreen(props) {
                     Machine Learning (Coming Soon)
                 </li>
                 <li className={styles.linksLi}>
-                    <a href="https://drive.google.com/file/d/1IKpLYahg9lFPCBePW4mFhUHwRYzzJl3v/view">
-                        Differential Geometry
-                    </a>
+                    <a href={process.env.PUBLIC_URL+'/notes/differential-geometry.pdf'}>Differential Geometry</a>
                 </li>
                 <li className={styles.linksLi}>
-                    <a href="https://drive.google.com/file/d/1gZLXWnhl2DsVk9K5n4Sr-c25JI5ChYrL/view">
-                        Complex Analysis
-                    </a>
+                    <a href={process.env.PUBLIC_URL+'/notes/complex-analysis.pdf'}>Complex Analysis</a>
                 </li>
                 <li className={styles.linksLi}>
-                    <a href="https://drive.google.com/file/d/1uaw9WRfe2XzNse4c-XAv0g5B7ByV7UY0/view">
-                        Measure Theory
-                    </a>
+                <a href={process.env.PUBLIC_URL+'/notes/measure-theory.pdf'}>Measure Theory</a>
                 </li>
                 <li className={styles.linksLi}>
                     <a href="https://drive.google.com/file/d/1W5DoRh0CewlhtoGpPUtNJNfiu9BHXCX3/view">

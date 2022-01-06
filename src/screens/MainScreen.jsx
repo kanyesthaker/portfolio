@@ -17,6 +17,8 @@ export default function MainScreen(props) {
             <p className={styles.textBlock}>
                 I'm looking to learn, explore, and build the future of technology. I'm interested in solving the hard tech problems of the future while paying attention to the social issues that surround tech today.
             </p>
+            <p><b>Currently learning</b>: Statistical learning, quantum mechanics, distributed systems</p>
+            <p><b>Currently reading</b>: <em>Caste</em> by Isabel Wilkerson, <em>The Score Takes Care of Itself</em> by Bill Walsh</p>
             <p className={styles.textBlock}>
                 Contact:<br/>
                 kanyes[dot]thaker[at]gmail<br/>
