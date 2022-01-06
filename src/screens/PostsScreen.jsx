@@ -8,12 +8,12 @@ export default function PostsScreen(props) {
             <ul className={styles.linksUl}>
                 <li className={styles.linksLi}>
                     <Link to="/reflection21" className={styles.pageLink}>
-                        A Year in Review -- 2021: 2022-01-02
+                        2022-01-02: A Year in Review - 2021
                     </Link>
                 </li>
                 <li className={styles.linksLi}>
                     <Link to="/eecs" className={styles.pageLink}>
-                        Looking Back on Berkeley EECS: 2021-09-05
+                        2021-09-05: Looking Back on Berkeley EECS
                     </Link>
                 </li>
             </ul>
