@@ -19,7 +19,7 @@ export default function ProjectsScreen(props) {
                     </Link>
                 </li>
                 <li className={styles.linksLi}>
-                    <Link to="/close" className={styles.pageLink}>Close Crisis - Local COVID dashboard pre-Google</Link>
+                    <Link to="/close" className={styles.pageLink}>Close Crisis - Pre-Google local COVID dashboard</Link>
                 </li>
                 <li className={styles.linksLi}>
                     <Link to="/wave" className={styles.pageLink}>Wave - Change your accent with neural voice cloning</Link>
