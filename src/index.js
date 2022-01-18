@@ -27,7 +27,7 @@ const Routing=() => (
       <Route path="/iris" component={IrisScreen}></Route>
       <Route path="/datum" component={DatumScreen}></Route>
       <Route path="/close" component={CloseScreen}></Route>
-      <Route path="/drop" component={DropScreen}></Route>
+      <Route path="/dropthefax" component={DropScreen}></Route>
       <Route path="/wave" component={WaveScreen}></Route>
       <Route path="/ferret" component={FerretScreen}></Route>
       <Route path="/eecs" component={EecsScreen}></Route>

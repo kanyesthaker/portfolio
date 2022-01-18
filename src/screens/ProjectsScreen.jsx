@@ -25,7 +25,7 @@ export default function ProjectsScreen(props) {
                     <Link to="/wave" className={styles.pageLink}>Wave - Change your accent with neural voice cloning</Link>
                 </li>
                 <li className={styles.linksLi}>
-                    <Link to="/drop" className={styles.pageLink}>Drop the Fax - Protest tuition hikes during COVID</Link>
+                    <Link to="/dropthefax" className={styles.pageLink}>Drop the Fax - Protest tuition hikes during COVID</Link>
                 </li>
                 <li className={styles.linksLi}>
                     <Link to="/datum" className={styles.pageLink}>Datum - Android habit tracker</Link>
