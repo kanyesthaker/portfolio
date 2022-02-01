@@ -27,7 +27,7 @@ export default function MainScreen(props) {
                 kanyes[dot]thaker[at]gmail<br/>
                 <a href="https://linkedin.com/in/kanyesthaker" style={{"text-decoration":"none"}}>/in/kanyesthaker</a>
             </p>
-            <img src={KanyesImage} width="200px" float="left"/>
+            <div style={{"text-align":"right"}}><img src={KanyesImage} width="200px" float="left"/></div>
         </div>
     )
 }
