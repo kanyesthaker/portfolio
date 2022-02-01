@@ -16,9 +16,9 @@ export default function MainScreen(props) {
                 I graduated from UC Berkeley with a B.A. in CS and math in 2021. While I was there, I <Link to="/iris">started a company</Link>, did some quant <a>internships</a>, and led <a href="https://mdb.dev">mdb.dev</a>.
             </p>
             <p className={styles.textBlock}>
-                I believe that building the future starts with a deep understanding of technology. 
-                A deep love for and mastery of the frontier of math, science, and technology;
-                the ability to transform moonshot ideas into tangible, elegant solutions that address real, important problems; and 
+                I'm on a journey to define and do <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">great work</a>. 
+                I believe that building the future begins with a deep mastery of frontier technology, and a broad knowledge of how to elegantly apply that technology to real, high-impact problems.
+                I'm invested in learning from history and studying the present to solve the hard tech problems of the future.
             </p>
             <p><b>Currently learning</b>: Statistical learning, quantum mechanics, distributed systems</p>
             <p><b>Currently reading</b>: <em>Caste</em> by Isabel Wilkerson, <em>That Will Never Work</em> by Marc Randolph</p>
