@@ -8,9 +8,9 @@ export default function NotesScreen(props) {
                 Notes
             </p>
             <ul className={styles.linksUl}>
-                <li className={styles.linksLi}>
+                {/* <li className={styles.linksLi}>
                     Machine Learning (Coming Soon)
-                </li>
+                </li> */}
                 <li className={styles.linksLi}>
                     <a href={process.env.PUBLIC_URL+'/notes/differential-geometry.pdf'}>Differential Geometry</a>
                 </li>
