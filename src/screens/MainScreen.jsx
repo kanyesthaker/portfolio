@@ -21,7 +21,7 @@ export default function MainScreen(props) {
                 I'm invested in learning from history and studying the present to solve the hard tech problems of the future.
             </p>
             <p><b>Currently learning</b>: Statistical learning, quantum mechanics, distributed systems</p>
-            <p><b>Currently reading</b>: <em>Caste</em> by Isabel Wilkerson, <em>That Will Never Work</em> by Marc Randolph</p>
+            <p><b>Currently reading</b>: <em>Caste</em> by Isabel Wilkerson, <em>That Will Never Work</em> by Marc Randolph, <em>Cool Gray City of Love</em> by Gary Kamiya</p>
             <p className={styles.textBlock}>
                 Contact:<br/>
                 kanyes[dot]thaker[at]gmail<br/>
