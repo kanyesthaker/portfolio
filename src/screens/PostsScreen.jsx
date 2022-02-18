@@ -16,6 +16,11 @@ export default function PostsScreen(props) {
                         2021-09-05: Looking Back on Berkeley EECS
                     </Link>
                 </li>
+                <li className={styles.linksLi}>
+                    <a href="https://kanyes.notion.site/ML-Metrics-Matter-456064b143d14fa5ba80e13aba40b842" className={styles.pageLink}>
+                        2021-05-24: ML Metrics Matter
+                    </a>
+                </li>
             </ul>
         </div>
     )
