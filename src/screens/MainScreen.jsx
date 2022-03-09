@@ -13,7 +13,7 @@ export default function MainScreen(props) {
                 I'm a machine learning engineer at <a href="https://snorkel.ai">snorkel.ai</a>.
             </p>
             <p className={styles.textBlock}>
-                I graduated from UC Berkeley with a B.A. in CS and math in 2021. While I was there, I <Link to="/iris">started a company</Link>, did some quant <a>internships</a>, and led <a href="https://mdb.dev">mdb.dev</a>.
+                I graduated from UC Berkeley with a B.A. in CS and math in 2021. While I was there, I <Link to="/iris">started a company</Link>, did some quant internships, and led <a href="https://mdb.dev">mdb.dev</a>.
             </p>
             <p className={styles.textBlock}>
                 I'm on a journey to define and do <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">great work</a>. 
