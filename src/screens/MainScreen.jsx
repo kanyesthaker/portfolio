@@ -21,7 +21,7 @@ export default function MainScreen(props) {
                 I'm invested in learning from history and studying the present to solve the hard tech problems of the future.
             </p>
             <p><b>Currently learning</b>: Statistical learning, quantum mechanics, distributed systems</p>
-            <p><b>Currently reading</b>: <em>The Wizard of Menlo Park</em> by Randall Stross, <em>Cool Gray City of Love</em> by Gary Kamiya, <em>The Innovator's Dilemma</em> by Clayton Christensen
+            <p><b>Currently reading</b>: <em>The Wizard of Menlo Park</em> by Randall Stross, <em>Cool Gray City of Love</em> by Gary Kamiya, <em>The Innovator's Dilemma</em> by Clayton Christensen</p>
             <p className={styles.textBlock}>
                 Contact:<br/>
                 kanyes[dot]thaker[at]gmail<br/>
