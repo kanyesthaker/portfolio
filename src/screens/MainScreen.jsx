@@ -28,13 +28,12 @@ export default function MainScreen(props) {
         the future.
       </p>
       <p>
-        <b>Currently learning</b>: Statistical learning, quantum mechanics,
+        <b>Currently learning</b>: Algorithms,
         distributed systems
       </p>
       <p>
-        <b>Currently reading</b>: <em>The Wizard of Menlo Park</em> by Randall
-        Stross, <em>Cool Gray City of Love</em> by Gary Kamiya,{" "}
-        <em>The Information</em> by James Gleick
+        <b>Currently reading</b>: <em>Cool Gray City of Love</em> by Gary Kamiya,{" "}
+        <em>Dune</em> by Frank Herbert
       </p>
       <p className={styles.textBlock}>
         Contact:
