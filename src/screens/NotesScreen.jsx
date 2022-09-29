@@ -12,13 +12,16 @@ export default function NotesScreen(props) {
                     Machine Learning (Coming Soon)
                 </li> */}
                 <li className={styles.linksLi}>
+                    <a href={process.env.PUBLIC_URL+'/notes/linear-algebra.pdf'}>Linear Algebra</a>
+                </li>
+                <li className={styles.linksLi}>
                     <a href={process.env.PUBLIC_URL+'/notes/differential-geometry.pdf'}>Differential Geometry</a>
                 </li>
                 <li className={styles.linksLi}>
                     <a href={process.env.PUBLIC_URL+'/notes/complex-analysis.pdf'}>Complex Analysis</a>
                 </li>
                 <li className={styles.linksLi}>
-                <a href={process.env.PUBLIC_URL+'/notes/measure-theory.pdf'}>Measure Theory</a>
+                    <a href={process.env.PUBLIC_URL+'/notes/measure-theory.pdf'}>Measure Theory</a>
                 </li>
                 <li className={styles.linksLi}>
                 <a href={process.env.PUBLIC_URL+'/notes/numerical-analysis.pdf'}>Numerical Analysis</a>

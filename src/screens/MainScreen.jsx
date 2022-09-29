@@ -8,7 +8,7 @@ export default function MainScreen(props) {
     <div className={styles.container}>
       <p className={styles.name}>Kanyes Thaker</p>
       <p className={styles.textBlock}>
-        I'm a machine learning engineer at{" "}
+        I'm a applied machine learning engineer at{" "}
         <a href="https://snorkel.ai">snorkel.ai</a>.
       </p>
       <p className={styles.textBlock}>
@@ -28,12 +28,11 @@ export default function MainScreen(props) {
         the future.
       </p>
       <p>
-        <b>Currently learning</b>: Algorithms,
-        distributed systems
+        <b>Currently learning</b>: How to write great software
       </p>
       <p>
-        <b>Currently reading</b>: <em>Cool Gray City of Love</em> by Gary Kamiya,{" "}
-        <em>Dune</em> by Frank Herbert
+        <b>Currently reading</b>: <em>The Design of Everyday Things</em> by Don Norman,{" "}
+        <em>Becoming Steve Jobs</em> by Brent Schlender
       </p>
       <p className={styles.textBlock}>
         Contact:
