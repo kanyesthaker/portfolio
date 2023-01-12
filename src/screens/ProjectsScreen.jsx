@@ -9,6 +9,9 @@ export default function ProjectsScreen(props) {
             </p>
             <ul className={styles.linksUl}>
                 <li className={styles.linksLi}>
+                    Postgres-CSV Uploader
+                </li>
+                <li className={styles.linksLi}>
                     <Link to="/iris" className={styles.pageLink}>
                         IRIS - A personal internet
                     </Link>
