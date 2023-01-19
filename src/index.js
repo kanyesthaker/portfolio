@@ -16,6 +16,7 @@ import PostsScreen from './screens/PostsScreen';
 import FerretScreen from './screens/projects/FerretScreen';
 import EecsScreen from './screens/posts/EecsScreen';
 import ReflectionScreen2021 from './screens/posts/ReflectionScreen2021';
+import ReflectionScreen2022 from './screens/posts/ReflectionScreen2022';
 
 const Routing=() => (
   <Router>
@@ -32,6 +33,7 @@ const Routing=() => (
       <Route path="/ferret" component={FerretScreen}></Route>
       <Route path="/eecs" component={EecsScreen}></Route>
       <Route path="/reflection21" component={ReflectionScreen2021}></Route>
+      <Route path="/reflection22" component={ReflectionScreen2022}></Route>
       <Route path="/" component={App}></Route>
     </Switch>
   </Router>
