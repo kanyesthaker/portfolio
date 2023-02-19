@@ -8,9 +8,9 @@ export default function NotesScreen(props) {
                 Notes
             </p>
             <ul className={styles.linksUl}>
-                {/* <li className={styles.linksLi}>
-                    Machine Learning (Coming Soon)
-                </li> */}
+                <li className={styles.linksLi}>
+                    <a href={process.env.PUBLIC_URL+'/notes/intro-probability.pdf'}>Introductory Probability</a>
+                </li>
                 <li className={styles.linksLi}>
                     <a href={process.env.PUBLIC_URL+'/notes/linear-algebra.pdf'}>Linear Algebra</a>
                 </li>
