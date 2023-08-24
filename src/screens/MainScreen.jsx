@@ -8,31 +8,27 @@ export default function MainScreen(props) {
     <div className={styles.container}>
       <p className={styles.name}>Kanyes Thaker</p>
       <p className={styles.textBlock}>
-        I'm a applied machine learning engineer at{" "}
-        <a href="https://snorkel.ai">snorkel.ai</a>.
+        I'm an applied machine learning engineer at{" "}
+        <a href="https://snorkel.ai">snorkel.ai</a> where I work on implementing and deploying ML
+        in real-world settings, designing/building our user-facing API, experimenting with LLM embeddings representations, and optimizing core algorithms and metric calculations.
       </p>
       <p className={styles.textBlock}>
         I graduated from UC Berkeley with a B.A. in CS and math in 2021. While I
-        was there, I <Link to="/iris">started a company</Link>, did some quant
-        internships, and led <a href="https://mdb.dev">mdb.dev</a>.
+        was there, I <Link to="/iris">worked on some projects</Link>, interned a bit, and led <a href="https://mdb.dev">mdb.dev</a>.
       </p>
       <p className={styles.textBlock}>
         I'm on a journey to define and do{" "}
         <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
           great work
         </a>
-        . I believe that building the future begins with a deep mastery of
-        frontier technology, and a broad knowledge of how to elegantly apply
-        that technology to real, high-impact problems. I'm invested in learning
-        from history and studying the present to solve the hard tech problems of
-        the future.
+        . Building the future begins by understanding how to build great technology, and applying those skills to solve important problems.
+        I believe in working towards the future while learning from the past to build powerful products that move the needle towards a more positive future.
       </p>
       <p>
-        <b>Currently learning</b>: How to write great software
+        <b>Currently learning</b>: API design. Topology. Wok cooking. Acoustic guitar. Calisthenics.
       </p>
       <p>
-        <b>Currently reading</b>: <em>The Design of Everyday Things</em> by Don Norman,{" "}
-        <em>Becoming Steve Jobs</em> by Brent Schlender
+        <b>Currently reading</b>: <em>The Making of the Atomic Bomb</em> by Richard Rhodes
       </p>
       <p className={styles.textBlock}>
         Contact:
