@@ -8,27 +8,31 @@ export default function MainScreen(props) {
     <div className={styles.container}>
       <p className={styles.name}>Kanyes Thaker</p>
       <p className={styles.textBlock}>
-        I'm an applied machine learning engineer at{" "}
-        <a href="https://snorkel.ai">snorkel.ai</a> where I work on implementing and deploying ML
-        in real-world settings, designing/building our user-facing API, experimenting with LLM embeddings representations, and optimizing core algorithms and metric calculations.
+        I'm on the software team at{" "}<a href="https://maticrobots.com/">maticrobots.com</a> where I focus on motion planning algorithms.
+      </p>
+      <p>
+        Previously, I was an applied ML engineer at{" "}
+        <a href="https://snorkel.ai">snorkel.ai</a> where my work spanned ML solutions, SDK/API design,
+        infrastructure, data processing, distillation, explainability, and core algorithm design and optimization.
       </p>
       <p className={styles.textBlock}>
         I graduated from UC Berkeley with a B.A. in CS and math in 2021. While I
-        was there, I <Link to="/iris">worked on some projects</Link>, interned a bit, and led <a href="https://mdb.dev">mdb.dev</a>.
+        was there, I <Link to="/iris">worked on some projects</Link>, interned around, and led <a href="https://mdb.dev">mdb.dev</a>.
       </p>
       <p className={styles.textBlock}>
         I'm on a journey to define and do{" "}
         <a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
           great work
         </a>
-        . Building the future begins by understanding how to build great technology, and applying those skills to solve important problems.
-        I believe in working towards the future while learning from the past to build powerful products that move the needle towards a more positive future.
+        . Building the future begins by understanding important problems, then solving them with beautiful, powerful, and innovative technology.
+        I'm inspired by the artists, mathematicians, designers, musicians, scientists, engineers, and inventors who changed the world by relentlessly pursuing the vision that inspired them. 
+        I believe in building wonderful products that move the needle towards a more positive future.
       </p>
       <p>
-        <b>Currently learning</b>: API design. Topology. Wok cooking. Acoustic guitar. Calisthenics.
+        <b>Currently learning</b>: Mead making. Acoustic guitar. Optimization. How to use my air fryer.
       </p>
       <p>
-        <b>Currently reading</b>: <em>The Making of the Atomic Bomb</em> by Richard Rhodes
+        <b>Currently reading</b>: <em>Insanely Simple</em> by Ken Segall
       </p>
       <p className={styles.textBlock}>
         Contact:

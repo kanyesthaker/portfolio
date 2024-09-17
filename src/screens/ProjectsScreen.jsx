@@ -23,6 +23,11 @@ export default function ProjectsScreen(props) {
                         SpaceBar[WIP]
                     </a>
                 </li>
+                <li className={styles.linksLi}>
+                    <a href="https://github.com/kanyesthaker/syncavify/tree/main" className={styles.linksLi}>
+                        Syncavify - Cava Visualizer Sync'd to Spotify
+                    </a>
+                </li>
             </ul>
             <p className={styles.title}>
                 Inactive Projects
@@ -34,7 +39,7 @@ export default function ProjectsScreen(props) {
                     </Link>
                 </li>
                 <li className={styles.linksLi}>
-                    <a href="https://chrome.google.com/webstore/detail/ferret/mjnmolplinickaigofdpejfgfoehnlbh#:~:text=Ferret%20is%20a%20helpful%20sidekick,you%20read%20on%20the%20internet." calssName={styles.pageLink}>
+                    <a href="https://chrome.google.com/webstore/detail/ferret/mjnmolplinickaigofdpejfgfoehnlbh#:~:text=Ferret%20is%20a%20helpful%20sidekick,you%20read%20on%20the%20internet." className={styles.pageLink}>
                         Ferret - NLP-powered flashcards for the whole internet
                     </a>
                 </li>

@@ -3,11 +3,18 @@ import styles from "./screens.module.css";
 
 export default function NotesScreen(props) {
     return(
+        
         <div className={styles.container}>
             <p className={styles.title}>
                 Notes
             </p>
             <ul className={styles.linksUl}>
+                <li className={styles.linksLi}>
+                    <a href={process.env.PUBLIC_URL+'/notes/clrs.pdf'}>Algorithms, Cormen et al</a>
+                </li>
+                <li className={styles.linksLi}>
+                    <a href={process.env.PUBLIC_URL+'/notes/machine-learning.pdf'}>Machine Learning, Hastie et al</a>
+                </li>
                 <li className={styles.linksLi}>
                     <a href={process.env.PUBLIC_URL+'/notes/intro-probability.pdf'}>Probability, Ross</a>
                 </li>
